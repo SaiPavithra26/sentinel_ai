@@ -1,0 +1,1200 @@
+{
+    "feature_cols": [
+        "key_hold_time_mean",
+        "key_hold_time_std",
+        "key_hold_time_median",
+        "key_hold_time_min",
+        "key_hold_time_max",
+        "flight_time_f1_mean",
+        "flight_time_f1_std",
+        "flight_time_f1_median",
+        "flight_time_f1_min",
+        "flight_time_f1_max",
+        "flight_time_f2_mean",
+        "flight_time_f2_std",
+        "flight_time_f2_median",
+        "flight_time_f2_min",
+        "flight_time_f2_max",
+        "flight_time_f3_mean",
+        "flight_time_f3_std",
+        "flight_time_f3_median",
+        "flight_time_f3_min",
+        "flight_time_f3_max",
+        "flight_time_f4_mean",
+        "flight_time_f4_std",
+        "flight_time_f4_median",
+        "flight_time_f4_min",
+        "flight_time_f4_max",
+        "typing_speed",
+        "keystroke_count",
+        "swipe_count",
+        "tap_count",
+        "swipe_dist_mean",
+        "swipe_dist_std",
+        "swipe_dist_median",
+        "swipe_dist_min",
+        "swipe_dist_max",
+        "swipe_dur_mean",
+        "swipe_dur_std",
+        "swipe_dur_median",
+        "swipe_dur_min",
+        "swipe_dur_max",
+        "swipe_speed_mean",
+        "swipe_speed_std",
+        "swipe_speed_median",
+        "swipe_speed_min",
+        "swipe_speed_max",
+        "swipe_dir_mean",
+        "swipe_dir_std",
+        "swipe_dir_median",
+        "swipe_dir_min",
+        "swipe_dir_max",
+        "swipe_inst_vel_mean",
+        "swipe_inst_vel_std",
+        "swipe_inst_acc_mean",
+        "swipe_inst_acc_std",
+        "tap_dur_mean",
+        "tap_dur_std",
+        "tap_dur_median",
+        "tap_dur_min",
+        "tap_dur_max",
+        "touch_press_mean",
+        "touch_press_std",
+        "touch_press_median",
+        "touch_press_min",
+        "touch_press_max",
+        "touch_area_mean",
+        "touch_area_std",
+        "touch_area_median",
+        "touch_area_min",
+        "touch_area_max",
+        "touch_orient_mean",
+        "touch_orient_std",
+        "touch_orient_median",
+        "touch_orient_min",
+        "touch_orient_max",
+        "acc_Xvalue_mean",
+        "acc_Xvalue_std",
+        "acc_Xvalue_min",
+        "acc_Xvalue_max",
+        "acc_Xvalue_median",
+        "acc_Xvalue_skew",
+        "acc_Xvalue_kurt",
+        "acc_Yvalue_mean",
+        "acc_Yvalue_std",
+        "acc_Yvalue_min",
+        "acc_Yvalue_max",
+        "acc_Yvalue_median",
+        "acc_Yvalue_skew",
+        "acc_Yvalue_kurt",
+        "acc_Zvalue_mean",
+        "acc_Zvalue_std",
+        "acc_Zvalue_min",
+        "acc_Zvalue_max",
+        "acc_Zvalue_median",
+        "acc_Zvalue_skew",
+        "acc_Zvalue_kurt",
+        "acc_Mag_mean",
+        "acc_Mag_std",
+        "acc_Mag_min",
+        "acc_Mag_max",
+        "acc_Mag_median",
+        "acc_Mag_skew",
+        "acc_Mag_kurt",
+        "gyro_Xvalue_mean",
+        "gyro_Xvalue_std",
+        "gyro_Xvalue_min",
+        "gyro_Xvalue_max",
+        "gyro_Xvalue_median",
+        "gyro_Xvalue_skew",
+        "gyro_Xvalue_kurt",
+        "gyro_Yvalue_mean",
+        "gyro_Yvalue_std",
+        "gyro_Yvalue_min",
+        "gyro_Yvalue_max",
+        "gyro_Yvalue_median",
+        "gyro_Yvalue_skew",
+        "gyro_Yvalue_kurt",
+        "gyro_Zvalue_mean",
+        "gyro_Zvalue_std",
+        "gyro_Zvalue_min",
+        "gyro_Zvalue_max",
+        "gyro_Zvalue_median",
+        "gyro_Zvalue_skew",
+        "gyro_Zvalue_kurt",
+        "gyro_Mag_mean",
+        "gyro_Mag_std",
+        "gyro_Mag_min",
+        "gyro_Mag_max",
+        "gyro_Mag_median",
+        "gyro_Mag_skew",
+        "gyro_Mag_kurt"
+    ],
+    "clipping_bounds": {
+        "key_hold_time_mean": {
+            "lower": 0.05076391401248486,
+            "upper": 0.12759609889968004
+        },
+        "key_hold_time_std": {
+            "lower": 0.007178866880175027,
+            "upper": 0.03419094768104002
+        },
+        "key_hold_time_median": {
+            "lower": 0.0545015,
+            "upper": 0.12249750000000001
+        },
+        "key_hold_time_min": {
+            "lower": -0.022500999999999997,
+            "upper": 0.053499
+        },
+        "key_hold_time_max": {
+            "lower": -0.018500499999999975,
+            "upper": 0.4414995
+        },
+        "flight_time_f1_mean": {
+            "lower": 0.023970336503123163,
+            "upper": 0.6460170979283526
+        },
+        "flight_time_f1_std": {
+            "lower": -1.3592396356708403,
+            "upper": 3.6378621793161523
+        },
+        "flight_time_f1_median": {
+            "lower": 0.039500374999999976,
+            "upper": 0.251499375
+        },
+        "flight_time_f1_min": {
+            "lower": -0.125,
+            "upper": 0.07500000000000001
+        },
+        "flight_time_f1_max": {
+            "lower": -31.227499249999994,
+            "upper": 72.30049875
+        },
+        "flight_time_f2_mean": {
+            "lower": 0.11476112542163419,
+            "upper": 0.7377571134356359
+        },
+        "flight_time_f2_std": {
+            "lower": -1.3560596841256145,
+            "upper": 3.6369586082033547
+        },
+        "flight_time_f2_median": {
+            "lower": 0.09937612499999997,
+            "upper": 0.37837312500000003
+        },
+        "flight_time_f2_min": {
+            "lower": -0.0467525,
+            "upper": 0.09125150000000001
+        },
+        "flight_time_f2_max": {
+            "lower": -31.186501250000006,
+            "upper": 72.42950075000002
+        },
+        "flight_time_f3_mean": {
+            "lower": 0.11487152013086804,
+            "upper": 0.7377364622705413
+        },
+        "flight_time_f3_std": {
+            "lower": -1.3554462872117699,
+            "upper": 3.634703530277817
+        },
+        "flight_time_f3_median": {
+            "lower": 0.10449749999999994,
+            "upper": 0.37250150000000004
+        },
+        "flight_time_f3_min": {
+            "lower": -0.03950175000000001,
+            "upper": 0.13250025
+        },
+        "flight_time_f3_max": {
+            "lower": -31.18025099999999,
+            "upper": 72.42974899999999
+        },
+        "flight_time_f4_mean": {
+            "lower": 0.19914388833859387,
+            "upper": 0.8369794839668756
+        },
+        "flight_time_f4_std": {
+            "lower": -1.3576706168704291,
+            "upper": 3.637090136937699
+        },
+        "flight_time_f4_median": {
+            "lower": 0.17600087499999983,
+            "upper": 0.47999787500000013
+        },
+        "flight_time_f4_min": {
+            "lower": -0.011250000000000024,
+            "upper": 0.21075000000000002
+        },
+        "flight_time_f4_max": {
+            "lower": -31.091749999999998,
+            "upper": 72.55025
+        },
+        "typing_speed": {
+            "lower": 0.0766666666666671,
+            "upper": 4.409999999999999
+        },
+        "keystroke_count": {
+            "lower": 23.0,
+            "upper": 1323.0
+        },
+        "swipe_count": {
+            "lower": -25.5,
+            "upper": 58.5
+        },
+        "tap_count": {
+            "lower": -2.5,
+            "upper": 17.5
+        },
+        "swipe_dist_mean": {
+            "lower": 18.410426844345068,
+            "upper": 706.2993297492301
+        },
+        "swipe_dist_std": {
+            "lower": -53.016958332830455,
+            "upper": 334.5283137591749
+        },
+        "swipe_dist_median": {
+            "lower": 0.8617207626767822,
+            "upper": 716.0569465541755
+        },
+        "swipe_dist_min": {
+            "lower": -164.84575577286373,
+            "upper": 358.13569632670703
+        },
+        "swipe_dist_max": {
+            "lower": -72.98506474712644,
+            "upper": 1352.0639116117766
+        },
+        "swipe_dur_mean": {
+            "lower": -0.10402922390109887,
+            "upper": 0.8554839676739926
+        },
+        "swipe_dur_std": {
+            "lower": -0.3972566385193691,
+            "upper": 0.9911498117335293
+        },
+        "swipe_dur_median": {
+            "lower": -0.13047912500000006,
+            "upper": 0.6683528750000001
+        },
+        "swipe_dur_min": {
+            "lower": -0.040876125,
+            "upper": 0.262790875
+        },
+        "swipe_dur_max": {
+            "lower": -1.6426881249999994,
+            "upper": 4.260812874999999
+        },
+        "swipe_speed_mean": {
+            "lower": -1248.4661193821385,
+            "upper": 4642.149328518626
+        },
+        "swipe_speed_std": {
+            "lower": -960.6749394754737,
+            "upper": 2988.271256377827
+        },
+        "swipe_speed_median": {
+            "lower": -1444.7057036043366,
+            "upper": 4563.093385966887
+        },
+        "swipe_speed_min": {
+            "lower": -374.8885238924836,
+            "upper": 808.5955574736963
+        },
+        "swipe_speed_max": {
+            "lower": -3233.217781474786,
+            "upper": 11096.7065863379
+        },
+        "swipe_dir_mean": {
+            "lower": -6.757684716223695,
+            "upper": 6.803947177420996
+        },
+        "swipe_dir_std": {
+            "lower": 0.3618957928547164,
+            "upper": 2.9234250760645564
+        },
+        "swipe_dir_median": {
+            "lower": -5.197291261522384,
+            "upper": 5.171911870300546
+        },
+        "swipe_dir_min": {
+            "lower": -4.2366924417545135,
+            "upper": 0.17552813830766412
+        },
+        "swipe_dir_max": {
+            "lower": -0.1345832633469637,
+            "upper": 4.904413234116336
+        },
+        "swipe_inst_vel_mean": {
+            "lower": -623.7121778174737,
+            "upper": 3145.072874751076
+        },
+        "swipe_inst_vel_std": {
+            "lower": -1389.0294466849887,
+            "upper": 4994.976684336606
+        },
+        "swipe_inst_acc_mean": {
+            "lower": -45647.32758597766,
+            "upper": 18293.367449833062
+        },
+        "swipe_inst_acc_std": {
+            "lower": -333299.40648796584,
+            "upper": 1122188.1584311882
+        },
+        "tap_dur_mean": {
+            "lower": 0.008596220864661483,
+            "upper": 0.12868929605263169
+        },
+        "tap_dur_std": {
+            "lower": -0.004706688216169349,
+            "upper": 0.04234143923224785
+        },
+        "tap_dur_median": {
+            "lower": 0.004603250000000003,
+            "upper": 0.12743725
+        },
+        "tap_dur_min": {
+            "lower": -0.01649925,
+            "upper": 0.09149875
+        },
+        "tap_dur_max": {
+            "lower": -0.004875000000000004,
+            "upper": 0.208125
+        },
+        "touch_press_mean": {
+            "lower": -0.9830570303787076,
+            "upper": 2.1898342182272246
+        },
+        "touch_press_std": {
+            "lower": -0.05365419123716269,
+            "upper": 0.08942365206193781
+        },
+        "touch_press_median": {
+            "lower": -0.9705881923437119,
+            "upper": 2.182352915406227
+        },
+        "touch_press_min": {
+            "lower": -1.4509803904220462,
+            "upper": 2.4705882342532277
+        },
+        "touch_press_max": {
+            "lower": -0.823529377579689,
+            "upper": 2.0941176265478134
+        },
+        "touch_area_mean": {
+            "lower": -381.92616291098466,
+            "upper": 738.4217354722218
+        },
+        "touch_area_std": {
+            "lower": -81.93650900105283,
+            "upper": 191.05277690529368
+        },
+        "touch_area_median": {
+            "lower": -417.1837879499102,
+            "upper": 793.1774833102623
+        },
+        "touch_area_min": {
+            "lower": -54.67613262315432,
+            "upper": 93.12425852281662
+        },
+        "touch_area_max": {
+            "lower": -559.7354001771824,
+            "upper": 1220.513731357195
+        },
+        "touch_orient_mean": {
+            "lower": 0.0,
+            "upper": 0.0
+        },
+        "touch_orient_std": {
+            "lower": 0.0,
+            "upper": 0.0
+        },
+        "touch_orient_median": {
+            "lower": 0.0,
+            "upper": 0.0
+        },
+        "touch_orient_min": {
+            "lower": 0.0,
+            "upper": 0.0
+        },
+        "touch_orient_max": {
+            "lower": 0.0,
+            "upper": 0.0
+        },
+        "acc_Xvalue_mean": {
+            "lower": -1.7421753638103974,
+            "upper": 1.5450634958278238
+        },
+        "acc_Xvalue_std": {
+            "lower": -0.15373160932236202,
+            "upper": 1.422921223666179
+        },
+        "acc_Xvalue_min": {
+            "lower": -11.928372621536255,
+            "upper": 2.1490237712860107
+        },
+        "acc_Xvalue_max": {
+            "lower": -2.4854041337966937,
+            "upper": 11.342340350151066
+        },
+        "acc_Xvalue_median": {
+            "lower": -1.6834230795502663,
+            "upper": 1.5415666326880455
+        },
+        "acc_Xvalue_skew": {
+            "lower": -3.102660766633984,
+            "upper": 2.362574108025107
+        },
+        "acc_Xvalue_kurt": {
+            "lower": -8.880413829752202,
+            "upper": 19.990617440029027
+        },
+        "acc_Yvalue_mean": {
+            "lower": 1.1218116575649404,
+            "upper": 10.03144948426884
+        },
+        "acc_Yvalue_std": {
+            "lower": -0.5734203377985271,
+            "upper": 2.182881199923923
+        },
+        "acc_Yvalue_min": {
+            "lower": -6.961554408073425,
+            "upper": 8.469257473945618
+        },
+        "acc_Yvalue_max": {
+            "lower": 3.9555847644805864,
+            "upper": 13.635113954544071
+        },
+        "acc_Yvalue_median": {
+            "lower": 1.0280094146728516,
+            "upper": 10.31684684753418
+        },
+        "acc_Yvalue_skew": {
+            "lower": -3.6941078532858107,
+            "upper": 2.4231380020231397
+        },
+        "acc_Yvalue_kurt": {
+            "lower": -8.190380614961366,
+            "upper": 14.224025266671655
+        },
+        "acc_Zvalue_mean": {
+            "lower": 4.452746260248101,
+            "upper": 10.652249902377566
+        },
+        "acc_Zvalue_std": {
+            "lower": -0.30397946065777626,
+            "upper": 1.9071278889677727
+        },
+        "acc_Zvalue_min": {
+            "lower": -6.63910411298275,
+            "upper": 10.131871357560158
+        },
+        "acc_Zvalue_max": {
+            "lower": 3.6613349914550826,
+            "upper": 24.74467086791992
+        },
+        "acc_Zvalue_median": {
+            "lower": 4.302991032600403,
+            "upper": 10.89020550251007
+        },
+        "acc_Zvalue_skew": {
+            "lower": -2.0539784535263435,
+            "upper": 1.9917670923047046
+        },
+        "acc_Zvalue_kurt": {
+            "lower": -7.107541987108595,
+            "upper": 16.275855667570628
+        },
+        "acc_Mag_mean": {
+            "lower": 9.185260387489944,
+            "upper": 10.109722700567698
+        },
+        "acc_Mag_std": {
+            "lower": -0.009214771558451906,
+            "upper": 0.744274103852216
+        },
+        "acc_Mag_min": {
+            "lower": 0.9066672274520124,
+            "upper": 10.930761459411102
+        },
+        "acc_Mag_max": {
+            "lower": 4.549528399709031,
+            "upper": 26.536607207339575
+        },
+        "acc_Mag_median": {
+            "lower": 9.155653303109045,
+            "upper": 10.107042361815235
+        },
+        "acc_Mag_skew": {
+            "lower": -1.5007513297370283,
+            "upper": 3.187266713773515
+        },
+        "acc_Mag_kurt": {
+            "lower": -29.69054298441371,
+            "upper": 63.860350506462154
+        },
+        "gyro_Xvalue_mean": {
+            "lower": -0.005974823908477425,
+            "upper": 0.004628083196257975
+        },
+        "gyro_Xvalue_std": {
+            "lower": 0.020575395994945372,
+            "upper": 0.33236026869155866
+        },
+        "gyro_Xvalue_min": {
+            "lower": -4.784061670303345,
+            "upper": 0.7424647808074951
+        },
+        "gyro_Xvalue_max": {
+            "lower": -0.6842296123504639,
+            "upper": 4.420382738113403
+        },
+        "gyro_Xvalue_median": {
+            "lower": -0.0053263222798705,
+            "upper": 0.0031957933679223
+        },
+        "gyro_Xvalue_skew": {
+            "lower": -1.9605370443992944,
+            "upper": 1.4882331919451441
+        },
+        "gyro_Xvalue_kurt": {
+            "lower": -22.669931207985226,
+            "upper": 55.834692121946034
+        },
+        "gyro_Yvalue_mean": {
+            "lower": -0.009992479125755275,
+            "upper": 0.014937726000692125
+        },
+        "gyro_Yvalue_std": {
+            "lower": 0.00486993875989028,
+            "upper": 0.3867801174962635
+        },
+        "gyro_Yvalue_min": {
+            "lower": -5.4655943512916565,
+            "upper": 1.0959905982017517
+        },
+        "gyro_Yvalue_max": {
+            "lower": -1.0699708759784712,
+            "upper": 5.432263821363451
+        },
+        "gyro_Yvalue_median": {
+            "lower": -0.0095873801037669,
+            "upper": 0.015978966839611503
+        },
+        "gyro_Yvalue_skew": {
+            "lower": -1.4310349374823188,
+            "upper": 1.3552752026352106
+        },
+        "gyro_Yvalue_kurt": {
+            "lower": -26.809082275393386,
+            "upper": 60.6882410896937
+        },
+        "gyro_Zvalue_mean": {
+            "lower": -0.007164144258873022,
+            "upper": 0.004250060596130636
+        },
+        "gyro_Zvalue_std": {
+            "lower": -0.035266813384985926,
+            "upper": 0.255451533489955
+        },
+        "gyro_Zvalue_min": {
+            "lower": -3.9150696396827698,
+            "upper": 0.9090418219566345
+        },
+        "gyro_Zvalue_max": {
+            "lower": -0.932500034570694,
+            "upper": 3.767500013113022
+        },
+        "gyro_Zvalue_median": {
+            "lower": -0.0053263222798705,
+            "upper": 0.0031957933679223
+        },
+        "gyro_Zvalue_skew": {
+            "lower": -3.51947839466462,
+            "upper": 2.846306241552514
+        },
+        "gyro_Zvalue_kurt": {
+            "lower": -50.12011171157776,
+            "upper": 119.5613432216192
+        },
+        "gyro_Mag_mean": {
+            "lower": 0.01720182990456312,
+            "upper": 0.36689064979048114
+        },
+        "gyro_Mag_std": {
+            "lower": 0.005598559627368743,
+            "upper": 0.4175172678852608
+        },
+        "gyro_Mag_min": {
+            "lower": -0.00225976716172875,
+            "upper": 0.0037662786028812498
+        },
+        "gyro_Mag_max": {
+            "lower": -1.7430805539135141,
+            "upper": 8.271736918987749
+        },
+        "gyro_Mag_median": {
+            "lower": -0.018034403873713634,
+            "upper": 0.27735382693962257
+        },
+        "gyro_Mag_skew": {
+            "lower": -0.7951009008504499,
+            "upper": 7.667549603234008
+        },
+        "gyro_Mag_kurt": {
+            "lower": -32.075976264410805,
+            "upper": 77.6825028775883
+        }
+    },
+    "imputer_medians": {
+        "key_hold_time_mean": 0.0883667776119403,
+        "key_hold_time_std": 0.0204702276058651,
+        "key_hold_time_median": 0.086,
+        "key_hold_time_min": 0.012999,
+        "key_hold_time_max": 0.186,
+        "flight_time_f1_mean": 0.3250467600554785,
+        "flight_time_f1_std": 0.9515587148714102,
+        "flight_time_f1_median": 0.142,
+        "flight_time_f1_min": -0.027001,
+        "flight_time_f1_max": 16.213999,
+        "flight_time_f2_mean": 0.4096258037383178,
+        "flight_time_f2_std": 0.9512647595060256,
+        "flight_time_f2_median": 0.232,
+        "flight_time_f2_min": 0.011999,
+        "flight_time_f2_max": 16.270999,
+        "flight_time_f3_mean": 0.4095654785020804,
+        "flight_time_f3_std": 0.948598459001906,
+        "flight_time_f3_median": 0.231,
+        "flight_time_f3_min": 0.047,
+        "flight_time_f3_max": 16.268999,
+        "flight_time_f4_mean": 0.4978157288590603,
+        "flight_time_f4_std": 0.9483380072079156,
+        "flight_time_f4_median": 0.320999,
+        "flight_time_f4_min": 0.093999,
+        "flight_time_f4_max": 16.325999,
+        "typing_speed": 2.256666666666667,
+        "keystroke_count": 677.0,
+        "swipe_count": 15.0,
+        "tap_count": 7.0,
+        "swipe_dist_mean": 354.167622348167,
+        "swipe_dist_std": 134.91328293065234,
+        "swipe_dist_median": 340.56501570998773,
+        "swipe_dist_min": 87.43922806779912,
+        "swipe_dist_max": 610.0717137032245,
+        "swipe_dur_mean": 0.3588604523809523,
+        "swipe_dur_std": 0.2235912429088533,
+        "swipe_dur_median": 0.2622915,
+        "swipe_dur_min": 0.096583,
+        "swipe_dur_max": 0.9822495,
+        "swipe_speed_mean": 1500.1488181443954,
+        "swipe_speed_std": 1021.3017595822187,
+        "swipe_speed_median": 1288.0629594657535,
+        "swipe_speed_min": 196.4038022673637,
+        "swipe_speed_max": 3844.0261624065706,
+        "swipe_dir_mean": -1.2075657576565708,
+        "swipe_dir_std": 1.6691857050799594,
+        "swipe_dir_median": -0.9323802080219976,
+        "swipe_dir_min": -1.7953897742887823,
+        "swipe_dir_max": 2.018042879300575,
+        "swipe_inst_vel_mean": 1163.1094040209014,
+        "swipe_inst_vel_std": 1575.8727276260038,
+        "swipe_inst_acc_mean": -12550.84063709472,
+        "swipe_inst_acc_std": 363086.2792929808,
+        "tap_dur_mean": 0.067,
+        "tap_dur_std": 0.0182647208430364,
+        "tap_dur_median": 0.064999,
+        "tap_dur_min": 0.037499,
+        "tap_dur_max": 0.095666,
+        "touch_press_mean": 1.0,
+        "touch_press_std": 0.0,
+        "touch_press_median": 1.0,
+        "touch_press_min": 1.0,
+        "touch_press_max": 1.0,
+        "touch_area_mean": 66.40912773549411,
+        "touch_area_std": 36.05291371195216,
+        "touch_area_median": 65.91323697946113,
+        "touch_area_min": 0.7490140565847857,
+        "touch_area_max": 178.265345467179,
+        "touch_orient_mean": 0.0,
+        "touch_orient_std": 0.0,
+        "touch_orient_median": 0.0,
+        "touch_orient_min": 0.0,
+        "touch_orient_max": 0.0,
+        "acc_Xvalue_mean": -0.0801875771493037,
+        "acc_Xvalue_std": 0.5767072900507937,
+        "acc_Xvalue_min": -4.575319290161133,
+        "acc_Xvalue_max": 3.9408559799194336,
+        "acc_Xvalue_median": -0.0499999970197677,
+        "acc_Xvalue_skew": -0.3633767428624418,
+        "acc_Xvalue_kurt": 4.593100140819236,
+        "acc_Yvalue_mean": 5.595806872132781,
+        "acc_Yvalue_std": 0.7148044864347243,
+        "acc_Yvalue_min": 0.9062053561210632,
+        "acc_Yvalue_max": 8.828619003295898,
+        "acc_Yvalue_median": 5.698200225830077,
+        "acc_Yvalue_skew": -0.4693971544944349,
+        "acc_Yvalue_kurt": 1.806862660211584,
+        "acc_Zvalue_mean": 7.630781813590501,
+        "acc_Zvalue_std": 0.7078757407589594,
+        "acc_Zvalue_min": 2.218227863311768,
+        "acc_Zvalue_max": 13.579999923706056,
+        "acc_Zvalue_median": 7.668628215789795,
+        "acc_Zvalue_skew": -0.1007499035976805,
+        "acc_Zvalue_kurt": 3.6646848134547385,
+        "acc_Mag_mean": 9.6371546593283,
+        "acc_Mag_std": 0.3609756483132726,
+        "acc_Mag_min": 6.2335061323732885,
+        "acc_Mag_max": 14.807740676472244,
+        "acc_Mag_median": 9.613134367850824,
+        "acc_Mag_skew": 0.630050633101895,
+        "acc_Mag_kurt": 11.215298192880274,
+        "gyro_Xvalue_mean": -0.0006364213122661,
+        "gyro_Xvalue_std": 0.172467526222907,
+        "gyro_Xvalue_min": -1.8999999761581416,
+        "gyro_Xvalue_max": 1.6990967988967896,
+        "gyro_Xvalue_median": 0.0,
+        "gyro_Xvalue_skew": -0.209074029442747,
+        "gyro_Xvalue_kurt": 13.404336849805992,
+        "gyro_Yvalue_mean": 0.002171134307643,
+        "gyro_Yvalue_std": 0.193691900176014,
+        "gyro_Yvalue_min": -1.8887138366699217,
+        "gyro_Yvalue_max": 1.9611518383026123,
+        "gyro_Yvalue_median": 0.0,
+        "gyro_Yvalue_skew": -0.0659472339297705,
+        "gyro_Yvalue_kurt": 12.443750514158838,
+        "gyro_Zvalue_mean": -0.0015006149522366,
+        "gyro_Zvalue_std": 0.1018385088271244,
+        "gyro_Zvalue_min": -1.350000023841858,
+        "gyro_Zvalue_max": 1.2400000095367432,
+        "gyro_Zvalue_median": 0.0,
+        "gyro_Zvalue_skew": -0.2949989132378097,
+        "gyro_Zvalue_kurt": 28.893976057462464,
+        "gyro_Mag_mean": 0.1889793248512746,
+        "gyro_Mag_std": 0.2023680492113654,
+        "gyro_Mag_min": 0.0,
+        "gyro_Mag_max": 2.937277646256655,
+        "gyro_Mag_median": 0.1289014019174485,
+        "gyro_Mag_skew": 3.19886061241745,
+        "gyro_Mag_kurt": 17.879194281096346
+    },
+    "minmax_min": {
+        "key_hold_time_mean": -0.8112431475515569,
+        "key_hold_time_std": -0.34607379706954183,
+        "key_hold_time_median": -0.8702622237489979,
+        "key_hold_time_min": -0.01902857142857143,
+        "key_hold_time_max": -0.2489395317390831,
+        "flight_time_f1_mean": -0.26426140521573765,
+        "flight_time_f1_std": -0.05349176482259509,
+        "flight_time_f1_median": -0.5014854444355721,
+        "flight_time_f1_min": 0.625,
+        "flight_time_f1_max": -0.014594340739160208,
+        "flight_time_f2_mean": -0.4233027113876662,
+        "flight_time_f2_std": -0.05421055411536323,
+        "flight_time_f2_median": -0.823529411764706,
+        "flight_time_f2_min": 0.33877641227790495,
+        "flight_time_f2_max": -0.015905617776229477,
+        "flight_time_f3_mean": -0.42331147145839043,
+        "flight_time_f3_std": -0.05369848617306003,
+        "flight_time_f3_median": -0.8038595174392562,
+        "flight_time_f3_min": 0.0,
+        "flight_time_f3_max": -0.015805842212338828,
+        "flight_time_f4_mean": -0.5697735348832198,
+        "flight_time_f4_std": -0.05438179417061421,
+        "flight_time_f4_median": -0.9200078200664701,
+        "flight_time_f4_min": -0.07662285250139207,
+        "flight_time_f4_max": -0.01711778804462702,
+        "typing_speed": -0.0176923076923078,
+        "keystroke_count": -0.01769230769230769,
+        "swipe_count": 0.0,
+        "tap_count": 0.0,
+        "swipe_dist_mean": -0.029722337990718866,
+        "swipe_dist_std": 0.0,
+        "swipe_dist_median": -0.029305446111261037,
+        "swipe_dist_min": -0.05918645550472962,
+        "swipe_dist_max": -0.015309208311301593,
+        "swipe_dur_mean": -0.07407556510183164,
+        "swipe_dur_std": 0.0,
+        "swipe_dur_median": -0.0968240282775395,
+        "swipe_dur_min": -0.04784863085628614,
+        "swipe_dur_max": -0.01404155819290263,
+        "swipe_speed_mean": -0.004638967363249991,
+        "swipe_speed_std": 0.0,
+        "swipe_speed_median": -0.004719717154134334,
+        "swipe_speed_min": -0.002868345813863323,
+        "swipe_speed_max": -0.001935423603372609,
+        "swipe_dir_mean": 0.49712044564011554,
+        "swipe_dir_std": -0.14128114608208833,
+        "swipe_dir_median": 0.4946046065669143,
+        "swipe_dir_min": 0.9470782118211846,
+        "swipe_dir_max": 0.04107937630919398,
+        "swipe_inst_vel_mean": -0.01982716089960413,
+        "swipe_inst_vel_std": -0.011089777062995737,
+        "swipe_inst_acc_mean": 0.7139010228214183,
+        "swipe_inst_acc_std": -0.009582997866024609,
+        "tap_dur_mean": -0.2351370610140539,
+        "tap_dur_std": 0.0,
+        "tap_dur_median": -0.17520570462913224,
+        "tap_dur_min": -0.011038704526808085,
+        "tap_dur_max": -0.17945245071093,
+        "touch_press_mean": -0.1555779064301208,
+        "touch_press_std": 0.0,
+        "touch_press_median": -0.15909091811935028,
+        "touch_press_min": -0.007905138811118435,
+        "touch_press_max": -0.22596154434602297,
+        "touch_area_mean": -0.02732586328417069,
+        "touch_area_std": -0.043832866914055676,
+        "touch_area_median": -0.022154604400294355,
+        "touch_area_min": -0.008108385108075043,
+        "touch_area_max": -0.031377817861239575,
+        "touch_orient_mean": 0.0,
+        "touch_orient_std": 0.0,
+        "touch_orient_median": 0.0,
+        "touch_orient_min": 0.0,
+        "touch_orient_max": 0.0,
+        "acc_Xvalue_mean": 0.5299813728784325,
+        "acc_Xvalue_std": -0.00947537499105471,
+        "acc_Xvalue_min": 1.006769465212516,
+        "acc_Xvalue_max": 0.0440886831290387,
+        "acc_Xvalue_median": 0.5219933177343015,
+        "acc_Xvalue_skew": 0.5677085866922639,
+        "acc_Xvalue_kurt": 0.049772490200500466,
+        "acc_Yvalue_mean": -0.14434911075228316,
+        "acc_Yvalue_std": -0.005403860045003634,
+        "acc_Yvalue_min": 0.4790098612816864,
+        "acc_Yvalue_max": -0.40865466561547126,
+        "acc_Yvalue_median": -0.12930534600029414,
+        "acc_Yvalue_skew": 0.6038841564753883,
+        "acc_Yvalue_kurt": 0.12046078473867251,
+        "acc_Zvalue_mean": -0.8278801930695614,
+        "acc_Zvalue_std": -0.01903058782298363,
+        "acc_Zvalue_min": 0.4333483206245467,
+        "acc_Zvalue_max": -0.45688254421314983,
+        "acc_Zvalue_median": -0.7757318406670861,
+        "acc_Zvalue_skew": 0.5076884915915862,
+        "acc_Zvalue_kurt": 0.09271140877127447,
+        "acc_Mag_mean": -14.91711887534931,
+        "acc_Mag_std": -0.05019311979879025,
+        "acc_Mag_min": -0.11646704182810909,
+        "acc_Mag_max": -0.6150815658964306,
+        "acc_Mag_median": -16.913663051577483,
+        "acc_Mag_skew": 0.24945200405649484,
+        "acc_Mag_kurt": -0.013730426339233822,
+        "gyro_Xvalue_mean": 0.5635080878723335,
+        "gyro_Xvalue_std": -0.06599228441389636,
+        "gyro_Xvalue_min": 1.0040241794966647,
+        "gyro_Xvalue_max": -0.0014480288964444016,
+        "gyro_Xvalue_median": 0.6250000000000001,
+        "gyro_Xvalue_skew": 0.5684742415538203,
+        "gyro_Xvalue_kurt": -0.01987352964930226,
+        "gyro_Yvalue_mean": 0.40081816716199725,
+        "gyro_Yvalue_std": -0.012751529105622305,
+        "gyro_Yvalue_min": 1.0100398848770435,
+        "gyro_Yvalue_max": -0.021227804830493368,
+        "gyro_Yvalue_median": 0.34782608695652173,
+        "gyro_Yvalue_skew": 0.5135949932055863,
+        "gyro_Yvalue_kurt": -0.0191238530258206,
+        "gyro_Zvalue_mean": 0.6276516279390646,
+        "gyro_Zvalue_std": -0.009743425966720436,
+        "gyro_Zvalue_min": 1.010725455514476,
+        "gyro_Zvalue_max": -0.03481893735427327,
+        "gyro_Zvalue_median": 0.6250000000000001,
+        "gyro_Zvalue_skew": 0.5528742481549092,
+        "gyro_Zvalue_kurt": -0.009363033961135183,
+        "gyro_Mag_mean": -0.04919182120313431,
+        "gyro_Mag_std": -0.013591418683182569,
+        "gyro_Mag_min": 0.0,
+        "gyro_Mag_max": -0.015591096385666617,
+        "gyro_Mag_median": 0.0,
+        "gyro_Mag_skew": -0.19747609294604657,
+        "gyro_Mag_kurt": -0.02836983047567384
+    },
+    "minmax_scale": {
+        "key_hold_time_mean": 14.19512949981027,
+        "key_hold_time_std": 39.369303525212985,
+        "key_hold_time_median": 15.267758311385927,
+        "key_hold_time_min": 19.047619047619047,
+        "key_hold_time_max": 2.8288583152168534,
+        "flight_time_f1_mean": 1.9570092018771184,
+        "flight_time_f1_std": 0.28959089511759106,
+        "flight_time_f1_median": 5.9701358877554735,
+        "flight_time_f1_min": 5.0,
+        "flight_time_f1_max": 0.0140330199415002,
+        "flight_time_f2_mean": 1.9292293974090422,
+        "flight_time_f2_std": 0.2898604762060077,
+        "flight_time_f2_median": 4.901960784313726,
+        "flight_time_f2_min": 7.246166777774556,
+        "flight_time_f2_max": 0.014026130337177967,
+        "flight_time_f3_mean": 1.9292952758195598,
+        "flight_time_f3_std": 0.28989943124536516,
+        "flight_time_f3_median": 4.8425563855159135,
+        "flight_time_f3_min": 7.5471555714045815,
+        "flight_time_f3_max": 0.014024704713699048,
+        "flight_time_f4_mean": 1.8755221184672972,
+        "flight_time_f4_std": 0.2898970755391744,
+        "flight_time_f4_median": 4.000034000289,
+        "flight_time_f4_min": 5.10853073547517,
+        "flight_time_f4_max": 0.014019493910008953,
+        "typing_speed": 0.23076923076923084,
+        "keystroke_count": 0.0007692307692307692,
+        "swipe_count": 0.017094017094017096,
+        "tap_count": 0.05714285714285714,
+        "swipe_dist_mean": 0.0014579120984814177,
+        "swipe_dist_std": 0.0029892835938541648,
+        "swipe_dist_median": 0.0014374631110898465,
+        "swipe_dist_min": 0.002957500373094598,
+        "swipe_dist_max": 0.0007509328513183712,
+        "swipe_dur_mean": 1.2555180525734175,
+        "swipe_dur_std": 1.0089292134869012,
+        "swipe_dur_median": 1.6410852250430423,
+        "swipe_dur_min": 3.987385904690512,
+        "swipe_dur_max": 0.2379925117441124,
+        "swipe_speed_mean": 0.00021641677082452756,
+        "swipe_speed_std": 0.0003346416420081388,
+        "swipe_speed_median": 0.0002201839042444321,
+        "swipe_speed_min": 0.0012402595296802466,
+        "swipe_speed_max": 9.02912423436464e-05,
+        "swipe_dir_mean": 0.1601942030372361,
+        "swipe_dir_std": 0.39039178921542717,
+        "swipe_dir_median": 0.16158481080973497,
+        "swipe_dir_min": 0.301500310372201,
+        "swipe_dir_max": 0.30523391458631,
+        "swipe_inst_vel_mean": 0.0003242618538625502,
+        "swipe_inst_vel_std": 0.0002024213206507251,
+        "swipe_inst_acc_mean": 1.563949218005745e-05,
+        "swipe_inst_acc_std": 8.996557219757293e-07,
+        "tap_dur_mean": 9.597822809667901,
+        "tap_dur_std": 23.61752500936212,
+        "tap_dur_median": 9.221838235124599,
+        "tap_dur_min": 11.049754281089173,
+        "tap_dur_max": 5.6670388022146785,
+        "touch_press_mean": 1.1555779064301208,
+        "touch_press_std": 14.266262117502377,
+        "touch_press_median": 1.1590909181193503,
+        "touch_press_min": 1.0079051388111184,
+        "touch_press_max": 1.225961544346023,
+        "touch_area_mean": 0.0018656715796412616,
+        "touch_area_std": 0.005463583852704175,
+        "touch_area_median": 0.0018486472488005415,
+        "touch_area_min": 0.010825411134533497,
+        "touch_area_max": 0.0008549420724372332,
+        "touch_orient_mean": 1.0,
+        "touch_orient_std": 1.0,
+        "touch_orient_median": 1.0,
+        "touch_orient_min": 1.0,
+        "touch_orient_max": 1.0,
+        "acc_Xvalue_mean": 0.30420667395920703,
+        "acc_Xvalue_std": 0.7094386942870424,
+        "acc_Xvalue_min": 0.08440124207679675,
+        "acc_Xvalue_max": 0.08427813725923237,
+        "acc_Xvalue_median": 0.310078508531411,
+        "acc_Xvalue_skew": 0.18297475276620712,
+        "acc_Xvalue_kurt": 0.04753367486772934,
+        "acc_Yvalue_mean": 0.12867499618038775,
+        "acc_Yvalue_std": 0.4605856975084323,
+        "acc_Yvalue_min": 0.06880788875630578,
+        "acc_Yvalue_max": 0.10331080989213293,
+        "acc_Yvalue_median": 0.12578225856175024,
+        "acc_Yvalue_skew": 0.16347225919195874,
+        "acc_Yvalue_kurt": 0.06183476187448695,
+        "acc_Zvalue_mean": 0.18592575113935036,
+        "acc_Zvalue_std": 0.5343273483219475,
+        "acc_Zvalue_min": 0.06527210799076569,
+        "acc_Zvalue_max": 0.05887661840359803,
+        "acc_Zvalue_median": 0.18027735470280365,
+        "acc_Zvalue_skew": 0.24717323140365396,
+        "acc_Zvalue_kurt": 0.055744448080630435,
+        "acc_Mag_mean": 1.5922279722884203,
+        "acc_Mag_std": 1.411030041705331,
+        "acc_Mag_min": 0.1284562166820719,
+        "acc_Mag_max": 0.06086239862079002,
+        "acc_Mag_median": 1.8058587246466196,
+        "acc_Mag_skew": 0.23548327245412906,
+        "acc_Mag_kurt": 0.015874175733449073,
+        "gyro_Xvalue_mean": 94.31375660675049,
+        "gyro_Xvalue_std": 3.207339699809825,
+        "gyro_Xvalue_min": 0.20986856957322672,
+        "gyro_Xvalue_max": 0.22655233454374074,
+        "gyro_Xvalue_median": 117.34175424608289,
+        "gyro_Xvalue_skew": 0.2899584290833943,
+        "gyro_Xvalue_kurt": 0.018265947046360396,
+        "gyro_Yvalue_mean": 40.11198443526413,
+        "gyro_Yvalue_std": 2.6184167264373563,
+        "gyro_Yvalue_min": 0.18479964299552268,
+        "gyro_Yvalue_max": 0.18799304275582368,
+        "gyro_Yvalue_median": 40.81452321602882,
+        "gyro_Yvalue_skew": 0.35889759205262733,
+        "gyro_Yvalue_kurt": 0.01679277294459094,
+        "gyro_Zvalue_mean": 87.61013252374113,
+        "gyro_Zvalue_std": 3.952778878136687,
+        "gyro_Zvalue_min": 0.2581628294091783,
+        "gyro_Zvalue_max": 0.27466992269476326,
+        "gyro_Zvalue_median": 117.34175424608289,
+        "gyro_Zvalue_skew": 0.15708982586540185,
+        "gyro_Zvalue_kurt": 0.008442218920961581,
+        "gyro_Mag_mean": 2.859685363478988,
+        "gyro_Mag_std": 2.427663468428642,
+        "gyro_Mag_min": 265.5140804599499,
+        "gyro_Mag_max": 0.1227784570921713,
+        "gyro_Mag_median": 3.6055028013645942,
+        "gyro_Mag_skew": 0.15617454792088686,
+        "gyro_Mag_kurt": 0.013238114020298416
+    },
+    "selected_features": [
+        "key_hold_time_mean",
+        "key_hold_time_std",
+        "key_hold_time_min",
+        "key_hold_time_max",
+        "flight_time_f1_mean",
+        "flight_time_f1_median",
+        "flight_time_f1_min",
+        "flight_time_f2_median",
+        "flight_time_f2_min",
+        "flight_time_f3_min",
+        "flight_time_f4_min",
+        "typing_speed",
+        "swipe_dist_mean",
+        "swipe_dist_std",
+        "swipe_dur_mean",
+        "swipe_inst_vel_mean",
+        "swipe_inst_vel_std",
+        "tap_dur_mean",
+        "tap_dur_median",
+        "tap_dur_min",
+        "tap_dur_max",
+        "touch_press_mean",
+        "touch_area_mean",
+        "touch_area_std",
+        "touch_area_min",
+        "acc_Xvalue_mean",
+        "acc_Yvalue_mean",
+        "acc_Yvalue_max",
+        "acc_Zvalue_mean",
+        "acc_Zvalue_std",
+        "acc_Zvalue_min",
+        "acc_Mag_mean",
+        "acc_Mag_median",
+        "acc_Mag_skew",
+        "acc_Mag_kurt",
+        "gyro_Xvalue_mean",
+        "gyro_Xvalue_std",
+        "gyro_Xvalue_median",
+        "gyro_Xvalue_kurt",
+        "gyro_Yvalue_mean",
+        "gyro_Yvalue_std",
+        "gyro_Yvalue_median",
+        "gyro_Yvalue_kurt",
+        "gyro_Zvalue_mean",
+        "gyro_Zvalue_median",
+        "gyro_Zvalue_kurt",
+        "gyro_Mag_mean",
+        "gyro_Mag_min",
+        "gyro_Mag_median",
+        "gyro_Mag_skew"
+    ],
+    "standard_mean": {
+        "key_hold_time_mean": 0.46346395828926135,
+        "key_hold_time_std": 0.4823830736603579,
+        "key_hold_time_min": 0.2915063850931677,
+        "key_hold_time_max": 0.3529222825910153,
+        "flight_time_f1_mean": 0.42076194726668686,
+        "flight_time_f1_median": 0.39831571175262437,
+        "flight_time_f1_min": 0.48272005217391317,
+        "flight_time_f2_median": 0.35821234867860186,
+        "flight_time_f2_min": 0.5186746004841699,
+        "flight_time_f3_min": 0.37986192478882114,
+        "flight_time_f4_min": 0.4479634531268984,
+        "typing_speed": 0.4989779264214047,
+        "swipe_dist_mean": 0.5089846564478345,
+        "swipe_dist_std": 0.43592741917521516,
+        "swipe_dur_mean": 0.4207762214000741,
+        "swipe_inst_vel_mean": 0.41599676936705937,
+        "swipe_inst_vel_std": 0.36990250873935565,
+        "tap_dur_mean": 0.4521278403983467,
+        "tap_dur_median": 0.4461989637660945,
+        "tap_dur_min": 0.4368695133315886,
+        "tap_dur_max": 0.4288372936489496,
+        "touch_press_mean": 0.5934439484366079,
+        "touch_area_mean": 0.29931847098298303,
+        "touch_area_std": 0.265049860467484,
+        "touch_area_min": 0.28110817567201307,
+        "acc_Xvalue_mean": 0.5062799853223607,
+        "acc_Yvalue_mean": 0.5607690974718261,
+        "acc_Yvalue_max": 0.5125395574552597,
+        "acc_Zvalue_mean": 0.5663058827978015,
+        "acc_Zvalue_std": 0.4402070143682564,
+        "acc_Zvalue_min": 0.5273718419304633,
+        "acc_Mag_mean": 0.4496179128290469,
+        "acc_Mag_median": 0.4815521218899165,
+        "acc_Mag_skew": 0.47424259161023874,
+        "acc_Mag_kurt": 0.31165104627102735,
+        "gyro_Xvalue_mean": 0.47866968657575437,
+        "gyro_Xvalue_std": 0.5225601134548246,
+        "gyro_Xvalue_median": 0.5293478260869565,
+        "gyro_Xvalue_kurt": 0.3375377589248333,
+        "gyro_Yvalue_mean": 0.5098904439034622,
+        "gyro_Yvalue_std": 0.5204975951164708,
+        "gyro_Yvalue_median": 0.4714092506714453,
+        "gyro_Yvalue_kurt": 0.3252605254763068,
+        "gyro_Zvalue_mean": 0.5347066056495613,
+        "gyro_Zvalue_median": 0.528695652173913,
+        "gyro_Zvalue_kurt": 0.334286286378453,
+        "gyro_Mag_mean": 0.5202532184505096,
+        "gyro_Mag_min": 0.203870160282581,
+        "gyro_Mag_median": 0.4817910007095098,
+        "gyro_Mag_skew": 0.3758721641900234
+    },
+    "standard_scale": {
+        "key_hold_time_mean": 0.21281852256377795,
+        "key_hold_time_std": 0.1991341078598993,
+        "key_hold_time_min": 0.24071340727161655,
+        "key_hold_time_max": 0.22707022053196535,
+        "flight_time_f1_mean": 0.2479926906429557,
+        "flight_time_f1_median": 0.23823505015360733,
+        "flight_time_f1_min": 0.1714049355570066,
+        "flight_time_f2_median": 0.22078670447491006,
+        "flight_time_f2_min": 0.21499676064068238,
+        "flight_time_f3_min": 0.2417977279615957,
+        "flight_time_f4_min": 0.2192943288168781,
+        "typing_speed": 0.1918639184071397,
+        "swipe_dist_mean": 0.2003438689021998,
+        "swipe_dist_std": 0.22590544916725488,
+        "swipe_dur_mean": 0.24339589295182767,
+        "swipe_inst_vel_mean": 0.24095320879964505,
+        "swipe_inst_vel_std": 0.2264312962710908,
+        "tap_dur_mean": 0.2406638367184466,
+        "tap_dur_median": 0.19733782192577415,
+        "tap_dur_min": 0.2257227097508931,
+        "tap_dur_max": 0.25061442174895576,
+        "touch_press_mean": 0.4573871706124412,
+        "touch_area_mean": 0.29513866522373133,
+        "touch_area_std": 0.2355960234509642,
+        "touch_area_min": 0.35866047711189974,
+        "acc_Xvalue_mean": 0.2067926270269223,
+        "acc_Yvalue_mean": 0.20083967727500388,
+        "acc_Yvalue_max": 0.20713734216416632,
+        "acc_Zvalue_mean": 0.2065625197102307,
+        "acc_Zvalue_std": 0.2429460254420094,
+        "acc_Zvalue_min": 0.21708786093124585,
+        "acc_Mag_mean": 0.21938547485276086,
+        "acc_Mag_median": 0.24804155890592508,
+        "acc_Mag_skew": 0.22922077839449928,
+        "acc_Mag_kurt": 0.32362362462961863,
+        "gyro_Xvalue_mean": 0.21997132611911907,
+        "gyro_Xvalue_std": 0.21926640529623592,
+        "gyro_Xvalue_median": 0.2548072773337344,
+        "gyro_Xvalue_kurt": 0.30339739218109363,
+        "gyro_Yvalue_mean": 0.16466928521130672,
+        "gyro_Yvalue_std": 0.21140313483022968,
+        "gyro_Yvalue_median": 0.16257481441399532,
+        "gyro_Yvalue_kurt": 0.3256154257323798,
+        "gyro_Zvalue_mean": 0.26110359555845153,
+        "gyro_Zvalue_median": 0.21236871848224748,
+        "gyro_Zvalue_kurt": 0.29119757624462067,
+        "gyro_Mag_mean": 0.2161520662907792,
+        "gyro_Mag_min": 0.26236798155712604,
+        "gyro_Mag_median": 0.21262173084212516,
+        "gyro_Mag_skew": 0.26595944931013016
+    }
+}
